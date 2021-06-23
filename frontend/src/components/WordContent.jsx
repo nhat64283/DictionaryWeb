@@ -51,7 +51,6 @@ export default class WordContent extends Component {
 			<div className="container">
 				<div className="row justify-content-between">
 					<h1>{this.state.word}</h1>
-					<hr></hr>
 					<h3>{this.state.pronunciation}</h3>
 				</div>
 				{this.state.datas.map((value, index) => {

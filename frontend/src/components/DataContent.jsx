@@ -7,13 +7,18 @@ class DataContent extends Component {
     return (
       <div>
         <div className="row">
+          <br></br>
+          
           <h3>{this.props.type}</h3>
+          
         </div>
         {this.props.meanings.map((value, index) => {
           return (
             <MeaningContent data={value.data} examples={value.examples}></MeaningContent>
           )
         })}
+        <br></br>
+        <br></br>
       </div>
 
     );

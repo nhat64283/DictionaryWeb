@@ -7,7 +7,9 @@ class MeaningContent extends Component {
 
       <div>
         <div className="row">
-          <h4>{this.props.data}</h4>
+          <br></br>
+        
+          <h5>{this.props.data}</h5>
         </div>
         {this.props.examples.map((value, index) => {
           return (

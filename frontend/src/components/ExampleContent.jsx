@@ -5,9 +5,9 @@ class ExampleContent extends Component {
   render() {
     return (
       <div className="row">
-        <hr></hr>
+        <br></br>
         <h5>{this.props.data}</h5>
-        <hr></hr>
+        
         <h5>{this.props.meaning}</h5>
       </div>
     )
